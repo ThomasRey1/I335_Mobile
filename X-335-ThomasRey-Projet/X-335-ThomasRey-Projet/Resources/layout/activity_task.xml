@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#354477"
+        android:id="@+id/layoutMenu" >
+        <Button
+            android:text="Retour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/btnback" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#1470c5"
+            android:gravity="center"
+            android:id="@+id/layoutTitle">
+            <EditText
+                android:text="Titre Tâche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:background="@null"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textTitle" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/layoutDescription">
+            <TextView
+                android:text="Description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:id="@+id/textDescriptionTitle" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="text"
+                android:ellipsize="end"
+                android:hint="Description"
+                android:id="@+id/editDescription" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/layoutDate">
+            <TextView
+                android:text="Date d'échéance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:id="@+id/textDateTitle" />
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:maxLines="1"
+                android:inputType="datetime"
+                android:ellipsize="end"
+                android:hint="Description"
+                android:id="@+id/editDate" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/layoutCategory">
+            <TextView
+                android:text="Catégorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:id="@+id/textCategoryTitle" />
+            <Spinner
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinnerCategory" />
+        </LinearLayout>
+        <Button
+            android:text="Ajouter la tâche"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="#135ea5"
+            android:textColor="#ffffff"
+            android:id="@+id/btnAddTask" />
+
+    </LinearLayout>
+</RelativeLayout>

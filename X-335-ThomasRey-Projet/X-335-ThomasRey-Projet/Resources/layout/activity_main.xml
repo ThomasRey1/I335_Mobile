@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:p4="http://xamarin.com/mono/android/designer"
-    android:orientation="vertical"
     android:minWidth="25px"
     android:minHeight="25px"
+    android:gravity="center_horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/linearLayout1">
+    android:id="@+id/relativeLayout1">
     <LinearLayout
         android:orientation="vertical"
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/myDay">
-
+        android:layout_height="50dp"
+        android:background="#354477"
+        android:id="@+id/layoutMenu" >
+        <Button
+            android:text="menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/btnMenu" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
         <LinearLayout
             android:orientation="vertical"
             android:minWidth="25px"
@@ -25,7 +41,7 @@
             android:layout_height="100dp"
             android:background="#1470c5"
             android:gravity="center"
-            android:id="@+id/titleDay">
+            android:id="@+id/layoutTitleDay">
             <TextView
                 android:text="Ma journée"
                 android:layout_width="match_parent"
@@ -37,64 +53,146 @@
 
         </LinearLayout>
         <LinearLayout
-            android:orientation="horizontal"
-            android:minWidth="25px"
-            android:minHeight="25px"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/dayToDo">
-            <TextView
-                android:text="À faire"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textAlignment="center"
-                android:textSize="30dp"
-                android:textColor="#000000"
-                android:id="@+id/toDoTitle"/>
-            <Button
-                android:text="v"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:textSize="20dp"
-                android:layout_weight="0"
-                android:rotation="-90"
-                style="?android:attr/borderlessButtonStyle"
-                android:id="@+id/btnToDoDisplay"/>
-
-        </LinearLayout>
-
-        <RelativeLayout
             android:orientation="vertical"
             android:minWidth="25px"
             android:minHeight="25px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/dayDone">
-            <TextView
-                android:text="Terminer"
+            android:id="@+id/layoutMyDay">
+
+            <RelativeLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textAlignment="center"
-                android:textSize="30dp"
-                android:textColor="#000000"
-                android:id="@+id/doneTitle"/>
-            <Button
-                android:text="v"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:textSize="20dp"
-                android:layout_weight="0"
-                android:rotation="-90"
-                style="?android:attr/borderlessButtonStyle"
-                android:layout_alignParentRight="true"
-                android:id="@+id/btnDoneDisplay"/>
-        </RelativeLayout>
+                android:id="@+id/layoutDayToDo">
+                <TextView
+                    android:text="À faire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textColor="#000000"
+                    android:id="@+id/textToDoTitle"/>
+                <Button
+                    android:text="v"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textSize="20dp"
+                    android:layout_weight="0"
+                    android:rotation="-90"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/btnClickToDo"/>
+                <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:visibility="invisible"
+                    android:layout_below="@+id/clickToDo"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:id="@+id/listToDo"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/layoutDayDone">
+                <TextView
+                    android:text="Terminer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textColor="#000000"
+                    android:id="@+id/TextDoneTitle"/>
+                <Button
+                    android:text="v"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textSize="20dp"
+                    android:layout_weight="0"
+                    android:rotation="-90"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/btnClickDone"/>
+                <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:visibility="invisible"
+                    android:layout_below="@+id/clickDone"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:id="@+id/listDone"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <Button
+            android:text="+"
+            android:textSize="30dp"
+            android:padding="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#135ea5"
+            android:textColor="#ffffff"
+            android:id="@+id/btnNewTask" />
     </LinearLayout>
-    <Spinner
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:paddingTop="50dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:prompt="@string/planet_prompt"
-        android:id="@+id/spinner1" />
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:id="@+id/layoutNav"
+        android:layout_marginTop="0.0dp" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:background="#135ea5"
+            android:id="@+id/layoutCategory">
+            <Button
+                android:text="Ma journée"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:id="@+id/btnDaily" />
+            <Button
+                android:text="Mes tâches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:id="@+id/btnTask" />
+            <Button
+                android:text="+ Nouvelle catégorie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:id="@+id/btnAddCategory" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000"
+            android:id="@+id/layoutblur" />
+    </LinearLayout>
+</RelativeLayout>

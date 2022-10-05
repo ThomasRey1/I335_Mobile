@@ -307,3 +307,5 @@ D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Deb
 D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\android\src\crc64fad78dc424ac7bf5\AddTaskActivity.java
+D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\res\layout\activity_task.xml
