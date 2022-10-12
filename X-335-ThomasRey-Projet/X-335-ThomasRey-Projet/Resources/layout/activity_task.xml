@@ -17,7 +17,7 @@
         android:background="#354477"
         android:id="@+id/layoutMenu" >
         <Button
-            android:text="Retour"
+            android:text="@string/back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
@@ -44,12 +44,12 @@
             android:gravity="center"
             android:id="@+id/layoutTitle">
             <EditText
-                android:text="Titre Tâche"
+                android:text="@string/taskTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:inputType="text"
-                android:background="@null"
+                android:background="#00000000"
                 android:textSize="40dp"
                 android:textColor="#ffffff"
                 android:id="@+id/textTitle" />
@@ -63,7 +63,7 @@
             android:gravity="center"
             android:id="@+id/layoutDescription">
             <TextView
-                android:text="Description"
+                android:text="@string/description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
@@ -76,7 +76,7 @@
                 android:maxLines="1"
                 android:inputType="text"
                 android:ellipsize="end"
-                android:hint="Description"
+                android:hint="@string/description"
                 android:id="@+id/editDescription" />
         </LinearLayout>
         <LinearLayout
@@ -88,7 +88,7 @@
             android:gravity="center"
             android:id="@+id/layoutDate">
             <TextView
-                android:text="Date d'échéance"
+                android:text="@string/dueDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
@@ -101,7 +101,6 @@
                 android:maxLines="1"
                 android:inputType="datetime"
                 android:ellipsize="end"
-                android:hint="Description"
                 android:id="@+id/editDate" />
         </LinearLayout>
         <LinearLayout
@@ -113,7 +112,7 @@
             android:gravity="center"
             android:id="@+id/layoutCategory">
             <TextView
-                android:text="Catégorie"
+                android:text="@string/category"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
@@ -125,8 +124,25 @@
                 android:layout_height="50dp"
                 android:id="@+id/spinnerCategory" />
         </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/layoutDaily">
+            <CheckBox
+                android:text="@string/addDaily"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:id="@+id/checkDaily" />
+
+        </LinearLayout>
         <Button
-            android:text="Ajouter la tâche"
+            android:text="@string/addTask"
             android:layout_marginTop="50dp"
             android:layout_width="300dp"
             android:layout_height="50dp"

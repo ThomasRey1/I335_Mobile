@@ -21,16 +21,21 @@ namespace Debut_Xamarin
 
             LinearLayout mainLayout = FindViewById<LinearLayout>(Resource.Id.mainLayout);
 
-            var dataTextView = FindViewById<TextView>(Resource.Id.textView1);
+            TextView dataTextView = FindViewById<TextView>(Resource.Id.textView1);
             string data = Intent.GetStringExtra("Data");
+            string data2 = Intent.GetStringExtra("Age");
             if (!string.IsNullOrEmpty(data))
+            {
+                dataTextView.Text = data;
+            }
+            if (!string.IsNullOrEmpty(data2))
             {
                 dataTextView.Text = data;
             }
 
             Button myButton2 = new Button(this)
             {
-                Text = "mon boutton"
+                Text = data2;
 
             };
 

@@ -38,17 +38,29 @@
       "frameworks": {
         "monoandroid12.0": {
           "dependencies": {
+            "SQLiteNetExtensions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Xamarin.AndroidX.AppCompat": {
               "target": "Package",
-              "version": "[1.2.0.5, )"
+              "version": "[1.5.1, )"
+            },
+            "Xamarin.AndroidX.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.0.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.3, )"
             },
             "Xamarin.Google.Android.Material": {
               "target": "Package",
-              "version": "[1.0.0.1, )"
+              "version": "[1.6.1.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           }
         }

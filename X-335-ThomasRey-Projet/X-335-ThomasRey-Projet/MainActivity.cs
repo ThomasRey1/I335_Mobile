@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Content.Res;
 using Android.Graphics;
 using Android.Hardware.Lights;
 using Android.OS;
@@ -14,7 +15,7 @@ using System.Collections.Generic;
 
 namespace X_335_ThomasRey_Projet
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
 
@@ -32,17 +33,16 @@ namespace X_335_ThomasRey_Projet
             LinearLayout layoutBlur = (LinearLayout)FindViewById(Resource.Id.layoutblur);
             Button menu = (Button)FindViewById(Resource.Id.btnMenu);
             nav = (LinearLayout)FindViewById(Resource.Id.layoutNav);
-            layoutBlur.Click += DisplayNav;
-            menu.Click += DisplayNav;
-
+            layoutBlur.Click += DisplayNav_Click;
+            menu.Click += DisplayNav_Click;
 
             //List
             listToDo = (ListView)FindViewById(Resource.Id.listToDo);
             Button clickToDo = (Button)FindViewById(Resource.Id.btnClickToDo);
-            clickToDo.Click += DisplayTask;
+            clickToDo.Click += DisplayTask_Click;
             listDone = (ListView)FindViewById(Resource.Id.listDone);
             Button clickDone = (Button)FindViewById(Resource.Id.btnClickDone);
-            clickDone.Click += DisplayTask;
+            clickDone.Click += DisplayTask_Click;
 
             //Adapter
             var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.planets_array, Android.Resource.Layout.SimpleSpinnerItem);
@@ -55,7 +55,13 @@ namespace X_335_ThomasRey_Projet
 
 
             Button addTask = (Button)FindViewById(Resource.Id.btnNewTask);
-            addTask.Click += NewTask;
+            addTask.Click += NewTask_Click;
+
+            Button myTask = (Button)FindViewById(Resource.Id.btnTask);
+            myTask.Click += MyTask_Click;
+
+            Button newCategory = (Button)FindViewById(Resource.Id.btnAddCategory);
+            newCategory.Click += NewCategory_Click;
         }
 
         /// <summary>
@@ -83,7 +89,12 @@ namespace X_335_ThomasRey_Projet
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
-        private void DisplayNav(object sender, EventArgs e)
+        /// <summary>
+        /// Display the navigation
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void DisplayNav_Click(object sender, EventArgs e)
         {
             nav.Visibility = nav.Visibility == ViewStates.Visible ? ViewStates.Gone : ViewStates.Visible;
         }
@@ -93,7 +104,7 @@ namespace X_335_ThomasRey_Projet
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void DisplayTask(object sender, EventArgs e)
+        private void DisplayTask_Click(object sender, EventArgs e)
         {
             Button button = sender as Button;
 
@@ -115,14 +126,34 @@ namespace X_335_ThomasRey_Projet
             }
         }
 
-        /// <summary>
+        // <summary>
         /// Show the add task activity
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void NewTask(object sender, EventArgs e)
+        private void NewTask_Click(object sender, EventArgs e)
         {
             StartActivity(typeof(AddTaskActivity));
+        }
+
+        /// <summary>
+        /// Show the my task activity
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void MyTask_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(MyTaskActivity));
+        }
+
+        /// <summary>
+        /// Show the new task activity
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void NewCategory_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(CategoryActivity));
         }
     }
 }

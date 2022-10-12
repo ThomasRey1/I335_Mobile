@@ -1,6 +1,25 @@
 <resources>
-    <string name="app_name">X_335_ThomasRey_Projet</string>
-    <string name="action_settings">Settings</string>
+  <string name="app_name">X_335_ThomasRey_Projet</string>
+  <string name="action_settings">Settings</string>
+  <string name="menu">Menu</string>
+  <string name="myCategory">Ma catégorie</string>
+  <string name="myDay">Ma journée</string>
+  <string name="myTask">Mes tâches</string>
+  <string name="newCategory">nouvelle catégorie</string>
+  <string name="newTask">+</string>
+  
+  <string name="displayTask">v</string>
+  <string name="toDo">À faire</string>
+  <string name="done">Terminer</string>
+  <string name="back">Retour</string>
+  
+  <string name="taskTitle">Titre Tâche</string>
+  <string name="description">Description</string>
+  <string name="dueDate">Date d\'échéance</string>
+  <string name="category">Catégorie</string>
+  <string name="addDaily">Ajouter à ma journée</string>
+  <string name="addTask">Ajouter la tâche</string>
+  
   <string name="planet_prompt">Choose a planet</string>
   <string-array name="planets_array">
     <item>Mercury</item>

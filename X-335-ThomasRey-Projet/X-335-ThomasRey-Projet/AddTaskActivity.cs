@@ -67,7 +67,7 @@ namespace X_335_ThomasRey_Projet
         }
         
         /// <summary>
-        /// Show the add task activity
+        /// Show the main activity
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>

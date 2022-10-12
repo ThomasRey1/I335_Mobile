@@ -17,7 +17,7 @@
         android:background="#354477"
         android:id="@+id/layoutMenu" >
         <Button
-            android:text="menu"
+            android:text="@string/menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
@@ -43,7 +43,7 @@
             android:gravity="center"
             android:id="@+id/layoutTitleDay">
             <TextView
-                android:text="Ma journée"
+                android:text="@string/myDay"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/layoutDayToDo">
                 <TextView
-                    android:text="À faire"
+                    android:text="@string/toDo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -76,7 +76,7 @@
                     android:textColor="#000000"
                     android:id="@+id/textToDoTitle"/>
                 <Button
-                    android:text="v"
+                    android:text="@string/displayTask"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:textSize="20dp"
@@ -104,7 +104,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/layoutDayDone">
                 <TextView
-                    android:text="Terminer"
+                    android:text="@string/done"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -113,7 +113,7 @@
                     android:textColor="#000000"
                     android:id="@+id/TextDoneTitle"/>
                 <Button
-                    android:text="v"
+                    android:text="@string/displayTask"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:textSize="20dp"
@@ -134,7 +134,7 @@
             </RelativeLayout>
         </LinearLayout>
         <Button
-            android:text="+"
+            android:text="@string/newTask"
             android:textSize="30dp"
             android:padding="0dp"
             android:layout_width="wrap_content"
@@ -162,7 +162,7 @@
             android:background="#135ea5"
             android:id="@+id/layoutCategory">
             <Button
-                android:text="Ma journée"
+                android:text="@string/myDay"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="?android:attr/borderlessButtonStyle"
@@ -170,7 +170,7 @@
                 android:textSize="20dp"
                 android:id="@+id/btnDaily" />
             <Button
-                android:text="Mes tâches"
+                android:text="@string/myTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="?android:attr/borderlessButtonStyle"
@@ -178,7 +178,7 @@
                 android:textSize="20dp"
                 android:id="@+id/btnTask" />
             <Button
-                android:text="+ Nouvelle catégorie"
+                android:text="@string/newCategory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="?android:attr/borderlessButtonStyle"
