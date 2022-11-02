@@ -1,3 +1,4 @@
+SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.Annotation.Experimental.dll
@@ -96,4 +97,3 @@ androidx.cardview.cardview.aar
 com.google.android.material.material.aar
 androidx.browser.browser.aar
 androidx.sqlite.sqlite.aar
-SQLitePCLRaw.lib.e_sqlite3.android.dll

@@ -3,6 +3,7 @@ using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
+using Android.Views.DisplayHash;
 using Android.Widget;
 using System;
 using System.Collections.Generic;
@@ -90,7 +91,7 @@ namespace X_335_ThomasRey_Projet
             {
                 button.Rotation += 90;
             }
-            if (button == (Button)FindViewById(Resource.Id.clickToDo))
+            if (button == (Button)FindViewById(Resource.Id.btnClickToDo))
             {
                 listToDo.Visibility = listToDo.Visibility == ViewStates.Visible ? ViewStates.Gone : ViewStates.Visible;
             }

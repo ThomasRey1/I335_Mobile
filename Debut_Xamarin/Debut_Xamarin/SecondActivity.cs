@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Graphics.Drawables;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -35,9 +36,21 @@ namespace Debut_Xamarin
 
             Button myButton2 = new Button(this)
             {
-                Text = data2;
-
+                Text = data2,
+                Visibility = ViewStates.Invisible,
+                Right = 60,
+                ScaleX = 20
             };
+
+            myButton2.ScaleY = 15;
+
+            LinearLayout layout = new LinearLayout(this)
+            {
+                ScaleX = 80,
+                ScaleY = 40,
+                Enabled = false
+            };
+            layout.Top = 50;
 
             myButton2.Click += OnButtonClick;
             mainLayout.AddView(myButton2);

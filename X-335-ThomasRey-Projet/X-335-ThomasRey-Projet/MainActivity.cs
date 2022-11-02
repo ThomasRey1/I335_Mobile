@@ -116,7 +116,7 @@ namespace X_335_ThomasRey_Projet
             {
                 button.Rotation += 90;
             }
-            if (button == (Button)FindViewById(Resource.Id.clickToDo))
+            if (button == (Button)FindViewById(Resource.Id.btnClickToDo))
             {
                 listToDo.Visibility = listToDo.Visibility == ViewStates.Visible ? ViewStates.Gone : ViewStates.Visible;
             }

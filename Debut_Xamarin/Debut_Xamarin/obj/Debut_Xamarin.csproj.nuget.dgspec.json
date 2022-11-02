@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\annee3\\I335\\I335_Mobile\\Debut_Xamarin\\Debut_Xamarin\\Debut_Xamarin.csproj": {}
+    "D:\\annee3\\I335\\I335_Mobile\\Debut_Xamarin\\Debut_Xamarin\\Debut_Xamarin.csproj": {}
   },
   "projects": {
-    "F:\\annee3\\I335\\I335_Mobile\\Debut_Xamarin\\Debut_Xamarin\\Debut_Xamarin.csproj": {
+    "D:\\annee3\\I335\\I335_Mobile\\Debut_Xamarin\\Debut_Xamarin\\Debut_Xamarin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\annee3\\I335\\I335_Mobile\\Debut_Xamarin\\Debut_Xamarin\\Debut_Xamarin.csproj",
+        "projectUniqueName": "D:\\annee3\\I335\\I335_Mobile\\Debut_Xamarin\\Debut_Xamarin\\Debut_Xamarin.csproj",
         "projectName": "Debut_Xamarin",
-        "projectPath": "F:\\annee3\\I335\\I335_Mobile\\Debut_Xamarin\\Debut_Xamarin\\Debut_Xamarin.csproj",
-        "packagesPath": "C:\\Users\\thomr\\.nuget\\packages\\",
-        "outputPath": "F:\\annee3\\I335\\I335_Mobile\\Debut_Xamarin\\Debut_Xamarin\\obj\\",
+        "projectPath": "D:\\annee3\\I335\\I335_Mobile\\Debut_Xamarin\\Debut_Xamarin\\Debut_Xamarin.csproj",
+        "packagesPath": "C:\\Users\\thorey\\.nuget\\packages\\",
+        "outputPath": "D:\\annee3\\I335\\I335_Mobile\\Debut_Xamarin\\Debut_Xamarin\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\thomr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thorey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
