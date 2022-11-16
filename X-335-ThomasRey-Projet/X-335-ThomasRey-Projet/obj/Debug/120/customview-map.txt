@@ -4,6 +4,7 @@ background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\120\res\layout\activity_category.xml
 Button;obj\Debug\120\res\layout\activity_main.xml
+Button;obj\Debug\120\res\layout\activity_modeltask.xml
 Button;obj\Debug\120\res\layout\activity_mytask.xml
 Button;obj\Debug\120\res\layout\activity_task.xml
 cache-path;D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\lp\49\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
@@ -19,6 +20,7 @@ item;obj\Debug\120\res\values\strings.xml
 item;obj\Debug\120\res\values\styles.xml
 LinearLayout;obj\Debug\120\res\layout\activity_category.xml
 LinearLayout;obj\Debug\120\res\layout\activity_main.xml
+LinearLayout;obj\Debug\120\res\layout\activity_modeltask.xml
 LinearLayout;obj\Debug\120\res\layout\activity_mytask.xml
 LinearLayout;obj\Debug\120\res\layout\activity_task.xml
 ListView;obj\Debug\120\res\layout\activity_category.xml
@@ -38,5 +40,6 @@ string-array;obj\Debug\120\res\values\strings.xml
 style;obj\Debug\120\res\values\styles.xml
 TextView;obj\Debug\120\res\layout\activity_category.xml
 TextView;obj\Debug\120\res\layout\activity_main.xml
+TextView;obj\Debug\120\res\layout\activity_modeltask.xml
 TextView;obj\Debug\120\res\layout\activity_mytask.xml
 TextView;obj\Debug\120\res\layout\activity_task.xml

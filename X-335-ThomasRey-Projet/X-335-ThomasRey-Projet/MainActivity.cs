@@ -22,6 +22,7 @@ namespace X_335_ThomasRey_Projet
         ListView listDone;
         ListView listToDo;
         LinearLayout nav;
+        List<Task> tasks = new List<Task>();
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -45,11 +46,12 @@ namespace X_335_ThomasRey_Projet
             clickDone.Click += DisplayTask_Click;
 
             //Adapter
-            var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.planets_array, Android.Resource.Layout.SimpleSpinnerItem);
+            TaskAdapter adapter1 = new TaskAdapter(tasks, this);
 
-            adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
-            listToDo.Adapter = adapter;
-            listDone.Adapter = adapter;
+            TaskAdapter adapter2 = new TaskAdapter(tasks, this);
+
+            listToDo.Adapter = adapter1;
+            listDone.Adapter = adapter2;
             listToDo.Visibility = ViewStates.Gone;
             listDone.Visibility = ViewStates.Gone;
 

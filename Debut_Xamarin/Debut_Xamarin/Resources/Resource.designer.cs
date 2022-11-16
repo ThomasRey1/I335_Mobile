@@ -3582,7 +3582,7 @@ namespace Debut_Xamarin
 			public const int browser_actions_menu_view = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int btn1Act1 = 2131230792;
+			public const int button1 = 2131230792;
 			
 			// aapt resource value: 0x7F080049
 			public const int buttonPanel = 2131230793;
@@ -3759,40 +3759,40 @@ namespace Debut_Xamarin
 			public const int line3 = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int listMode = 2131230849;
+			public const int linearLayout1 = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int list_item = 2131230850;
+			public const int listMode = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int mainLayout = 2131230851;
+			public const int list_item = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int masked = 2131230852;
+			public const int mainLayout = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int message = 2131230853;
+			public const int masked = 2131230853;
+			
+			// aapt resource value: 0x7F080086
+			public const int message = 2131230854;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F080086
-			public const int middle = 2131230854;
-			
 			// aapt resource value: 0x7F080087
-			public const int mini = 2131230855;
+			public const int middle = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int mtrl_child_content_container = 2131230856;
+			public const int mini = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int mtrl_internal_children_alpha_tag = 2131230857;
+			public const int mtrl_child_content_container = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int multiply = 2131230858;
+			public const int mtrl_internal_children_alpha_tag = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int myText = 2131230859;
+			public const int multiply = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
 			public const int navigation_header_container = 2131230860;

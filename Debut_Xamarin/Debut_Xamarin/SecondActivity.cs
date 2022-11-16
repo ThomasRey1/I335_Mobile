@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Graphics;
 using Android.Graphics.Drawables;
 using Android.OS;
 using Android.Runtime;
@@ -48,7 +49,7 @@ namespace Debut_Xamarin
             {
                 ScaleX = 80,
                 ScaleY = 40,
-                Enabled = false
+                Enabled = false,
             };
             layout.Top = 50;
 

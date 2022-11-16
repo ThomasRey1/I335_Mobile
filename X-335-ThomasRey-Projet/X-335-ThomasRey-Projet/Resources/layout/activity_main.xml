@@ -70,30 +70,28 @@
                     android:text="@string/toDo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:textAlignment="center"
                     android:textSize="30dp"
                     android:textColor="#000000"
                     android:id="@+id/textToDoTitle"/>
+                <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_below="@+id/clickToDo"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="50dp"
+                    android:id="@+id/listToDo"/>
                 <Button
                     android:text="@string/displayTask"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:textSize="20dp"
-                    android:layout_weight="0"
                     android:rotation="-90"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_alignParentRight="true"
                     android:id="@+id/btnClickToDo"/>
-                <ListView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0"
-                    android:visibility="invisible"
-                    android:layout_below="@+id/clickToDo"
-                    android:paddingLeft="30dp"
-                    android:paddingRight="30dp"
-                    android:id="@+id/listToDo"/>
 
             </RelativeLayout>
 
@@ -107,30 +105,28 @@
                     android:text="@string/done"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:textAlignment="center"
                     android:textSize="30dp"
                     android:textColor="#000000"
                     android:id="@+id/TextDoneTitle"/>
+                <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_below="@+id/clickDone"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="50dp"
+                    android:id="@+id/listDone"/>
                 <Button
                     android:text="@string/displayTask"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:textSize="20dp"
-                    android:layout_weight="0"
                     android:rotation="-90"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_alignParentRight="true"
                     android:id="@+id/btnClickDone"/>
-                <ListView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0"
-                    android:visibility="invisible"
-                    android:layout_below="@+id/clickDone"
-                    android:paddingLeft="30dp"
-                    android:paddingRight="30dp"
-                    android:id="@+id/listDone"/>
             </RelativeLayout>
         </LinearLayout>
         <Button

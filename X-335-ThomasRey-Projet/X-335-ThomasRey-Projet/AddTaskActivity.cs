@@ -1,19 +1,21 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Xamarin.Essentials;
 
 namespace X_335_ThomasRey_Projet
 {
     [Activity(Label = "AddTaskActivity")]
     public class AddTaskActivity : Activity
     {
+        private string _dbPath = System.IO.Path.Combine(FileSystem.AppDataDirectory, "MaBaseDeDonnees");
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -42,6 +44,9 @@ namespace X_335_ThomasRey_Projet
 
             btnAddTask.Click += BackToMenu;
 
+            // Instanciation du repository
+            TaskRepository taskRepository = new TaskRepository(_dbPath);
+            taskRepository.AddNewTaskAsync("ma tâche", "ma description");
         }
         
             /// <summary>

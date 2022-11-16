@@ -6,23 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:id="@+id/mainLayout">
-
-    <TextView
-        android:id="@+id/myText"
-        android:text="Hello World"
+    android:id="@+id/linearLayout1">
+    <Button
+        android:text="Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="invisible" />
-
-    <Button
-        android:id="@+id/btn1Act1"
-        android:layout_width="172.5dp"
-        android:layout_height="wrap_content"
-        android:text="Say hello"
-        android:backgroundTint="#ffeeee"
-        android:textColor="#ff33bbff" />
-
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/button1" />
 
 
 </LinearLayout>
