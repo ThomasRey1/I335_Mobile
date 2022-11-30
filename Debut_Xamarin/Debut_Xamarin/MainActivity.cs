@@ -20,6 +20,10 @@ namespace Debut_Xamarin
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
+            // Liste de tous les capteurs disponibles
+            IList<Sensor> sensors = sensorMgr.GetSensorList(SensorType.All);
+
+
             LinearLayout mainLayout = FindViewById<LinearLayout>(Resource.Id.mainLayout);
 
             Button btn1Act1 = FindViewById<Button>(Resource.Id.btn1Act1);

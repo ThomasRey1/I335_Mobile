@@ -15,11 +15,11 @@ namespace X_335_ThomasRey_Projet
     [Activity(Label = "AddTaskActivity")]
     public class AddTaskActivity : Activity
     {
-        private string _dbPath = System.IO.Path.Combine(FileSystem.AppDataDirectory, "MaBaseDeDonnees");
+        private string _dbPath = System.IO.Path.Combine(FileSystem.AppDataDirectory, "MaDB.db3");
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+            Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_task);
             // Create your application here
             // Set our view from the "main" layout resource
@@ -46,7 +46,7 @@ namespace X_335_ThomasRey_Projet
 
             // Instanciation du repository
             TaskRepository taskRepository = new TaskRepository(_dbPath);
-            taskRepository.AddNewTaskAsync("ma tâche", "ma description");
+            _ = taskRepository.AddNewTaskAsync("ma tâche", "ma description");
         }
         
             /// <summary>

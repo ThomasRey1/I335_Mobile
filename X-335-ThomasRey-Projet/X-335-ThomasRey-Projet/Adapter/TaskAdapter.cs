@@ -9,13 +9,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Xamarin.Essentials;
 
 namespace X_335_ThomasRey_Projet
 {
-    public class TaskAdapter : BaseAdapter<Task>
+    public class TaskAdapter : BaseAdapter<TaskDB>
     {
         // Variable
-        List<Task> tasks;
+        List<TaskDB> tasks;
         Activity activity;
 
         /// <summary>
@@ -23,10 +24,11 @@ namespace X_335_ThomasRey_Projet
         /// </summary>
         /// <param name="tasks"></param>
         /// <param name="activity"></param>
-        public TaskAdapter(List<Task> tasks, Activity activity) : base()
+        public TaskAdapter(List<TaskDB> tasks, Activity activity) : base()
         {
             this.tasks = tasks;
             this.activity = activity;
+
         }
 
         /// <summary>
@@ -44,7 +46,7 @@ namespace X_335_ThomasRey_Projet
         /// </summary>
         /// <param name="position"></param>
         /// <returns></returns>
-        public override Task this[int position]{
+        public override TaskDB this[int position]{
             get { return tasks[position]; }
         }
 

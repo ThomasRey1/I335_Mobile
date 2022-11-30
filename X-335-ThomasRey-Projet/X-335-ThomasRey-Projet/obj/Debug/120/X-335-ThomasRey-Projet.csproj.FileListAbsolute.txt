@@ -765,3 +765,6 @@ D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Deb
 D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEditTextAttachedListenerImplementor.java
 D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEndIconChangedListenerImplementor.java
 D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\res\layout\activity_modeltask.xml
+D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\android\src\mono\com\google\android\material\behavior\HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor.java
+D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\android\src\mono\com\google\android\material\checkbox\MaterialCheckBox_OnCheckedStateChangedListenerImplementor.java
+D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\android\src\mono\com\google\android\material\checkbox\MaterialCheckBox_OnErrorChangedListenerImplementor.java

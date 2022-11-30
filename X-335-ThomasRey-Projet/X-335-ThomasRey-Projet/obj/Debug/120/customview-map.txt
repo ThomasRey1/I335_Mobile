@@ -11,6 +11,7 @@ cache-path;D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Pro
 CheckBox;obj\Debug\120\res\layout\activity_task.xml
 color;obj\Debug\120\res\values\colors.xml
 color;obj\Debug\120\res\values\ic_launcher_background.xml
+EditText;obj\Debug\120\res\layout\activity_main.xml
 EditText;obj\Debug\120\res\layout\activity_task.xml
 external-cache-path;D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\lp\49\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;D:\annee3\I335\I335_Mobile\X-335-ThomasRey-Projet\X-335-ThomasRey-Projet\obj\Debug\120\lp\49\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml

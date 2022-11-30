@@ -138,6 +138,14 @@
             android:background="#135ea5"
             android:textColor="#ffffff"
             android:id="@+id/btnNewTask" />
+        
+        
+    <EditText
+            android:text="ufhahufh"
+        android:inputType="textMultiLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1" />
     </LinearLayout>
     <LinearLayout
         android:visibility="gone"

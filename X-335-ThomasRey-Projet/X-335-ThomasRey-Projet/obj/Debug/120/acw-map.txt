@@ -34,6 +34,9 @@ androidx.activity.result.ActivityResultCaller;androidx.activity.result.ActivityR
 AndroidX.Activity.Result.IActivityResultRegistryOwner, Xamarin.AndroidX.Activity;androidx.activity.result.ActivityResultRegistryOwner
 AndroidX.Activity.Result.IActivityResultRegistryOwner;androidx.activity.result.ActivityResultRegistryOwner
 androidx.activity.result.ActivityResultRegistryOwner;androidx.activity.result.ActivityResultRegistryOwner
+AndroidX.Activity.Result.Contract.ActivityResultContracts+PickVisualMedia+IVisualMediaType, Xamarin.AndroidX.Activity;androidx.activity.result.contract.ActivityResultContracts$PickVisualMedia$VisualMediaType
+AndroidX.Activity.Result.Contract.ActivityResultContracts.PickVisualMedia.IVisualMediaType;androidx.activity.result.contract.ActivityResultContracts$PickVisualMedia$VisualMediaType
+androidx.activity.result.contract.ActivityResultContracts$PickVisualMedia$VisualMediaType;androidx.activity.result.contract.ActivityResultContracts$PickVisualMedia$VisualMediaType
 AndroidX.Annotations.IAnimatorRes, Xamarin.AndroidX.Annotation;androidx.annotation.AnimatorRes
 AndroidX.Annotations.IAnimatorRes;androidx.annotation.AnimatorRes
 androidx.annotation.AnimatorRes;androidx.annotation.AnimatorRes
@@ -1462,6 +1465,21 @@ com.google.android.material.chip.ChipGroup$OnCheckedStateChangeListener;com.goog
 Google.Android.Material.Chip.ChipGroup+IOnCheckedStateChangeListenerImplementor, Xamarin.Google.Android.Material;mono.com.google.android.material.chip.ChipGroup_OnCheckedStateChangeListenerImplementor
 Google.Android.Material.Chip.ChipGroup.IOnCheckedStateChangeListenerImplementor;mono.com.google.android.material.chip.ChipGroup_OnCheckedStateChangeListenerImplementor
 mono.com.google.android.material.chip.ChipGroup_OnCheckedStateChangeListenerImplementor;mono.com.google.android.material.chip.ChipGroup_OnCheckedStateChangeListenerImplementor
+Google.Android.Material.CheckBox.MaterialCheckBox+ICheckedState, Xamarin.Google.Android.Material;com.google.android.material.checkbox.MaterialCheckBox$CheckedState
+Google.Android.Material.CheckBox.MaterialCheckBox.ICheckedState;com.google.android.material.checkbox.MaterialCheckBox$CheckedState
+com.google.android.material.checkbox.MaterialCheckBox$CheckedState;com.google.android.material.checkbox.MaterialCheckBox$CheckedState
+Google.Android.Material.CheckBox.MaterialCheckBox+IOnCheckedStateChangedListener, Xamarin.Google.Android.Material;com.google.android.material.checkbox.MaterialCheckBox$OnCheckedStateChangedListener
+Google.Android.Material.CheckBox.MaterialCheckBox.IOnCheckedStateChangedListener;com.google.android.material.checkbox.MaterialCheckBox$OnCheckedStateChangedListener
+com.google.android.material.checkbox.MaterialCheckBox$OnCheckedStateChangedListener;com.google.android.material.checkbox.MaterialCheckBox$OnCheckedStateChangedListener
+Google.Android.Material.CheckBox.MaterialCheckBox+IOnCheckedStateChangedListenerImplementor, Xamarin.Google.Android.Material;mono.com.google.android.material.checkbox.MaterialCheckBox_OnCheckedStateChangedListenerImplementor
+Google.Android.Material.CheckBox.MaterialCheckBox.IOnCheckedStateChangedListenerImplementor;mono.com.google.android.material.checkbox.MaterialCheckBox_OnCheckedStateChangedListenerImplementor
+mono.com.google.android.material.checkbox.MaterialCheckBox_OnCheckedStateChangedListenerImplementor;mono.com.google.android.material.checkbox.MaterialCheckBox_OnCheckedStateChangedListenerImplementor
+Google.Android.Material.CheckBox.MaterialCheckBox+IOnErrorChangedListener, Xamarin.Google.Android.Material;com.google.android.material.checkbox.MaterialCheckBox$OnErrorChangedListener
+Google.Android.Material.CheckBox.MaterialCheckBox.IOnErrorChangedListener;com.google.android.material.checkbox.MaterialCheckBox$OnErrorChangedListener
+com.google.android.material.checkbox.MaterialCheckBox$OnErrorChangedListener;com.google.android.material.checkbox.MaterialCheckBox$OnErrorChangedListener
+Google.Android.Material.CheckBox.MaterialCheckBox+IOnErrorChangedListenerImplementor, Xamarin.Google.Android.Material;mono.com.google.android.material.checkbox.MaterialCheckBox_OnErrorChangedListenerImplementor
+Google.Android.Material.CheckBox.MaterialCheckBox.IOnErrorChangedListenerImplementor;mono.com.google.android.material.checkbox.MaterialCheckBox_OnErrorChangedListenerImplementor
+mono.com.google.android.material.checkbox.MaterialCheckBox_OnErrorChangedListenerImplementor;mono.com.google.android.material.checkbox.MaterialCheckBox_OnErrorChangedListenerImplementor
 Google.Android.Material.Card.MaterialCardView+ICheckedIconGravity, Xamarin.Google.Android.Material;com.google.android.material.card.MaterialCardView$CheckedIconGravity
 Google.Android.Material.Card.MaterialCardView.ICheckedIconGravity;com.google.android.material.card.MaterialCardView$CheckedIconGravity
 com.google.android.material.card.MaterialCardView$CheckedIconGravity;com.google.android.material.card.MaterialCardView$CheckedIconGravity
@@ -1498,9 +1516,24 @@ com.google.android.material.bottomsheet.BottomSheetBehavior$State;com.google.and
 Google.Android.Material.BottomAppBar.BottomAppBar+IFabAlignmentMode, Xamarin.Google.Android.Material;com.google.android.material.bottomappbar.BottomAppBar$FabAlignmentMode
 Google.Android.Material.BottomAppBar.BottomAppBar.IFabAlignmentMode;com.google.android.material.bottomappbar.BottomAppBar$FabAlignmentMode
 com.google.android.material.bottomappbar.BottomAppBar$FabAlignmentMode;com.google.android.material.bottomappbar.BottomAppBar$FabAlignmentMode
+Google.Android.Material.BottomAppBar.BottomAppBar+IFabAnchorMode, Xamarin.Google.Android.Material;com.google.android.material.bottomappbar.BottomAppBar$FabAnchorMode
+Google.Android.Material.BottomAppBar.BottomAppBar.IFabAnchorMode;com.google.android.material.bottomappbar.BottomAppBar$FabAnchorMode
+com.google.android.material.bottomappbar.BottomAppBar$FabAnchorMode;com.google.android.material.bottomappbar.BottomAppBar$FabAnchorMode
 Google.Android.Material.BottomAppBar.BottomAppBar+IFabAnimationMode, Xamarin.Google.Android.Material;com.google.android.material.bottomappbar.BottomAppBar$FabAnimationMode
 Google.Android.Material.BottomAppBar.BottomAppBar.IFabAnimationMode;com.google.android.material.bottomappbar.BottomAppBar$FabAnimationMode
 com.google.android.material.bottomappbar.BottomAppBar$FabAnimationMode;com.google.android.material.bottomappbar.BottomAppBar$FabAnimationMode
+Google.Android.Material.BottomAppBar.BottomAppBar+IMenuAlignmentMode, Xamarin.Google.Android.Material;com.google.android.material.bottomappbar.BottomAppBar$MenuAlignmentMode
+Google.Android.Material.BottomAppBar.BottomAppBar.IMenuAlignmentMode;com.google.android.material.bottomappbar.BottomAppBar$MenuAlignmentMode
+com.google.android.material.bottomappbar.BottomAppBar$MenuAlignmentMode;com.google.android.material.bottomappbar.BottomAppBar$MenuAlignmentMode
+Google.Android.Material.Behavior.HideBottomViewOnScrollBehavior+IOnScrollStateChangedListener, Xamarin.Google.Android.Material;com.google.android.material.behavior.HideBottomViewOnScrollBehavior$OnScrollStateChangedListener
+Google.Android.Material.Behavior.HideBottomViewOnScrollBehavior.IOnScrollStateChangedListener;com.google.android.material.behavior.HideBottomViewOnScrollBehavior$OnScrollStateChangedListener
+com.google.android.material.behavior.HideBottomViewOnScrollBehavior$OnScrollStateChangedListener;com.google.android.material.behavior.HideBottomViewOnScrollBehavior$OnScrollStateChangedListener
+Google.Android.Material.Behavior.HideBottomViewOnScrollBehavior+IOnScrollStateChangedListenerImplementor, Xamarin.Google.Android.Material;mono.com.google.android.material.behavior.HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor
+Google.Android.Material.Behavior.HideBottomViewOnScrollBehavior.IOnScrollStateChangedListenerImplementor;mono.com.google.android.material.behavior.HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor
+mono.com.google.android.material.behavior.HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor;mono.com.google.android.material.behavior.HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor
+Google.Android.Material.Behavior.HideBottomViewOnScrollBehavior+IScrollState, Xamarin.Google.Android.Material;com.google.android.material.behavior.HideBottomViewOnScrollBehavior$ScrollState
+Google.Android.Material.Behavior.HideBottomViewOnScrollBehavior.IScrollState;com.google.android.material.behavior.HideBottomViewOnScrollBehavior$ScrollState
+com.google.android.material.behavior.HideBottomViewOnScrollBehavior$ScrollState;com.google.android.material.behavior.HideBottomViewOnScrollBehavior$ScrollState
 Google.Android.Material.Behavior.SwipeDismissBehavior+IOnDismissListener, Xamarin.Google.Android.Material;com.google.android.material.behavior.SwipeDismissBehavior$OnDismissListener
 Google.Android.Material.Behavior.SwipeDismissBehavior.IOnDismissListener;com.google.android.material.behavior.SwipeDismissBehavior$OnDismissListener
 com.google.android.material.behavior.SwipeDismissBehavior$OnDismissListener;com.google.android.material.behavior.SwipeDismissBehavior$OnDismissListener
@@ -1555,6 +1588,9 @@ com.google.android.material.textfield.TextInputLayout$BoxBackgroundMode;com.goog
 Google.Android.Material.TextField.TextInputLayout+IEndIconMode, Xamarin.Google.Android.Material;com.google.android.material.textfield.TextInputLayout$EndIconMode
 Google.Android.Material.TextField.TextInputLayout.IEndIconMode;com.google.android.material.textfield.TextInputLayout$EndIconMode
 com.google.android.material.textfield.TextInputLayout$EndIconMode;com.google.android.material.textfield.TextInputLayout$EndIconMode
+Google.Android.Material.TextField.TextInputLayout+ILengthCounter, Xamarin.Google.Android.Material;com.google.android.material.textfield.TextInputLayout$LengthCounter
+Google.Android.Material.TextField.TextInputLayout.ILengthCounter;com.google.android.material.textfield.TextInputLayout$LengthCounter
+com.google.android.material.textfield.TextInputLayout$LengthCounter;com.google.android.material.textfield.TextInputLayout$LengthCounter
 Google.Android.Material.TextField.TextInputLayout+IOnEditTextAttachedListener, Xamarin.Google.Android.Material;com.google.android.material.textfield.TextInputLayout$OnEditTextAttachedListener
 Google.Android.Material.TextField.TextInputLayout.IOnEditTextAttachedListener;com.google.android.material.textfield.TextInputLayout$OnEditTextAttachedListener
 com.google.android.material.textfield.TextInputLayout$OnEditTextAttachedListener;com.google.android.material.textfield.TextInputLayout$OnEditTextAttachedListener
@@ -1630,6 +1666,9 @@ mono.com.google.android.material.internal.MaterialCheckable_OnCheckedChangeListe
 Google.Android.Material.Internal.IMaterialCheckable, Xamarin.Google.Android.Material;com.google.android.material.internal.MaterialCheckable
 Google.Android.Material.Internal.IMaterialCheckable;com.google.android.material.internal.MaterialCheckable
 com.google.android.material.internal.MaterialCheckable;com.google.android.material.internal.MaterialCheckable
+Google.Android.Material.Internal.IStaticLayoutBuilderConfigurer, Xamarin.Google.Android.Material;com.google.android.material.internal.StaticLayoutBuilderConfigurer
+Google.Android.Material.Internal.IStaticLayoutBuilderConfigurer;com.google.android.material.internal.StaticLayoutBuilderConfigurer
+com.google.android.material.internal.StaticLayoutBuilderConfigurer;com.google.android.material.internal.StaticLayoutBuilderConfigurer
 Google.Android.Material.Internal.IViewOverlayImpl, Xamarin.Google.Android.Material;com.google.android.material.internal.ViewOverlayImpl
 Google.Android.Material.Internal.IViewOverlayImpl;com.google.android.material.internal.ViewOverlayImpl
 com.google.android.material.internal.ViewOverlayImpl;com.google.android.material.internal.ViewOverlayImpl
@@ -1660,6 +1699,9 @@ com.google.android.material.bottomnavigation.BottomNavigationView$OnNavigationIt
 Google.Android.Material.BottomNavigation.ILabelVisibilityMode, Xamarin.Google.Android.Material;com.google.android.material.bottomnavigation.LabelVisibilityMode
 Google.Android.Material.BottomNavigation.ILabelVisibilityMode;com.google.android.material.bottomnavigation.LabelVisibilityMode
 com.google.android.material.bottomnavigation.LabelVisibilityMode;com.google.android.material.bottomnavigation.LabelVisibilityMode
+Google.Android.Material.AppBar.CollapsingToolbarLayout+IStaticLayoutBuilderConfigurer, Xamarin.Google.Android.Material;com.google.android.material.appbar.CollapsingToolbarLayout$StaticLayoutBuilderConfigurer
+Google.Android.Material.AppBar.CollapsingToolbarLayout.IStaticLayoutBuilderConfigurer;com.google.android.material.appbar.CollapsingToolbarLayout$StaticLayoutBuilderConfigurer
+com.google.android.material.appbar.CollapsingToolbarLayout$StaticLayoutBuilderConfigurer;com.google.android.material.appbar.CollapsingToolbarLayout$StaticLayoutBuilderConfigurer
 Google.Android.Material.AppBar.CollapsingToolbarLayout+ITitleCollapseMode, Xamarin.Google.Android.Material;com.google.android.material.appbar.CollapsingToolbarLayout$TitleCollapseMode
 Google.Android.Material.AppBar.CollapsingToolbarLayout.ITitleCollapseMode;com.google.android.material.appbar.CollapsingToolbarLayout$TitleCollapseMode
 com.google.android.material.appbar.CollapsingToolbarLayout$TitleCollapseMode;com.google.android.material.appbar.CollapsingToolbarLayout$TitleCollapseMode
@@ -2260,12 +2302,18 @@ kotlin.ranges.ClosedFloatingPointRange;kotlin.ranges.ClosedFloatingPointRange
 Kotlin.Ranges.IClosedRange, Xamarin.Kotlin.StdLib;kotlin.ranges.ClosedRange
 Kotlin.Ranges.IClosedRange;kotlin.ranges.ClosedRange
 kotlin.ranges.ClosedRange;kotlin.ranges.ClosedRange
+Kotlin.Ranges.IOpenEndRange, Xamarin.Kotlin.StdLib;kotlin.ranges.OpenEndRange
+Kotlin.Ranges.IOpenEndRange;kotlin.ranges.OpenEndRange
+kotlin.ranges.OpenEndRange;kotlin.ranges.OpenEndRange
 Kotlin.Collections.IGrouping, Xamarin.Kotlin.StdLib;kotlin.collections.Grouping
 Kotlin.Collections.IGrouping;kotlin.collections.Grouping
 kotlin.collections.Grouping;kotlin.collections.Grouping
 Kotlin.IO.Path.IExperimentalPathApi, Xamarin.Kotlin.StdLib.Jdk7;kotlin.io.path.ExperimentalPathApi
 Kotlin.IO.Path.IExperimentalPathApi;kotlin.io.path.ExperimentalPathApi
 kotlin.io.path.ExperimentalPathApi;kotlin.io.path.ExperimentalPathApi
+Kotlin.IO.Path.IFileVisitorBuilder, Xamarin.Kotlin.StdLib.Jdk7;kotlin.io.path.FileVisitorBuilder
+Kotlin.IO.Path.IFileVisitorBuilder;kotlin.io.path.FileVisitorBuilder
+kotlin.io.path.FileVisitorBuilder;kotlin.io.path.FileVisitorBuilder
 Xamarin.KotlinX.Coroutines.ICancellableContinuation, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CancellableContinuation
 Xamarin.KotlinX.Coroutines.ICancellableContinuation;kotlinx.coroutines.CancellableContinuation
 kotlinx.coroutines.CancellableContinuation;kotlinx.coroutines.CancellableContinuation
